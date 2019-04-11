@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body.reset {
+    font-family: 'Open Sans', sans-serif;   
+    padding: 0;
+    margin: 0;
+}
+.mainWrapper {
+
+}
+.mainWrapper .header {
+    background-color: #00bcd4!important;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 12px -5px rgba(0,188,212,.46);
+    padding: 1rem;
+    height: 4rem;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+/* .mainWrapper .header i {
+    color: #fff;
+} */
+
+.mainWrapper .header .hamburgerMenu {
+    display: none;
+    float: left;
+}
+
+.mainWrapper .branding {
+    float: left;
+    color: #fff;
+    margin: 0 1rem 0;
+    font-size: 1.25rem;
+}
+
+.menuHolder {
+    width: 80%;
+    display: inline;
+}
+
+.menuHolder .menuItem {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.9rem;
+    vertical-align: baseline;
+    padding: 1.4rem;
+    background: #00bcd6;
+    transition: background .3s;
+}
+
+.menuHolder .menuItem:hover {
+    background: #048da0;
+    transition: background .3s;
+}
+
+.mainWrapper .header .userName {
+    float: right;
+    margin-right: 1em;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.mainWrapper .header .userName i {
+    font-size: 1.75rem;
+    vertical-align: bottom;
+}
+
+.breadcrumbBar {
+    width: 100%;
+    background: #ececec;
+    font-size: 1.2rem;
+    color: #737373;
+    padding: .5rem .5rem .5rem 2rem;
+}
+
+.breadcrumbBar .path { 
+    color: #2d2d2d;
+}
+
+.content .pageContent .topCards {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.content .pageContent .card {
+    margin: 1rem 1% 0 1rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    display: inline-block;
+    padding: 2rem;
+    min-height: 5rem;
+    min-width: 17rem;
+    text-align: left;
+    font-weight: 600;
+    color: #676363;
+}
+
+.content .pageContent .card .cardSubTitle {
+    font-weight: normal;
+    line-height: 4rem;
+    display: block;
+    clear: both;
+}
+
+.content .pageContent .card i {
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.table {
+    margin: 1rem auto 0 auto;
+    width: 88%;
+    border: 1px solid #d6d6d6;
+}
+
+.table .tableHeading {
+    background: #d6d6d6;
+    padding: .5rem;
+    overflow: hidden;
+    font-size: 1.1rem;
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.table .uk-table {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.table thead th {
+    font-weight: bold;
+    color: #616161;
+}
+
+.colorBlue {
+    color: #3985F7;
+}
+
+.colorOrange {
+    color: #ffbc1b;
+}
+
+.colorCyan {
+    color: #0db8ee;
+}
+
+.colorRed {
+    color: #ffb5c6;
+}
+
+.marginBottom2rem {
+    margin-bottom: 2rem;
+}
+
+.marginTop2rem {
+    margin-top: 2rem;
+}
